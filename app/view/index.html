@@ -9,8 +9,8 @@
   <div class='center'>
     <div class='title'>藥園植物影像分類 🌿</div>
     <p>
-      Use images of <strong>teddy</strong> bears, <strong>black</strong> bears, <strong>grizzly</strong> bears, or
-      all three!
+      請使用以下植物的圖片：<strong>土半夏</strong>、<strong>姑婆芋</strong>、<strong>毛忍冬</strong>、<strong>血桐</strong>
+      、<strong>賣子木</strong>、<strong>雞蛋花</strong>或<strong>魚腥草</strong>。
     </p>
     <div class='content'>
       <div class='no-display'>
@@ -21,15 +21,15 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>選擇圖片</button>
       <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
+        <label id='upload-label'>尚未選取檔案</label>
       </div>
       <div>
         <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
       </div>
       <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>分析</button>
       </div>
       <div class='result-label'>
         <label id='result-label'></label>
