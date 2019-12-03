@@ -2,6 +2,20 @@ body {
     background-color: #fff;
 }
 
+/*
+ * cwTeXFangSong (Chinese Traditional) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'cwTeXFangSong';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot);
+  src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.ttf) format('truetype');
+}
+
 .no-display {
     display: none;
 }
@@ -14,6 +28,7 @@ body {
 }
 
 .title {
+    font-family: 'cwTeXFangSong';
     font-size: 30px;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -21,25 +36,30 @@ body {
 }
 
 .content {
+    font-family: 'cwTeXFangSong';
     margin-top: 10em;
 }
 
 .analyze {
+    font-family: 'cwTeXFangSong';
     margin-top: 5em;
 }
 
 .upload-label {
+    font-family: 'cwTeXFangSong';
     padding: 10px;
     font-size: 12px;
 }
 
 .result-label {
+    font-family: 'cwTeXFangSong';
     margin-top: 0.5em;
     padding: 10px;
     font-size: 13px;
 }
 
 button.choose-file-button {
+    font-family: 'cwTeXFangSong';
     width: 200px;
     height: 40px;
     border-radius: 2px;
@@ -50,6 +70,7 @@ button.choose-file-button {
 }
 
 button.analyze-button {
+    font-family: 'cwTeXFangSong';
     width: 200px;
     height: 40px;
     border: solid 1px #7052CB;
