@@ -1,7 +1,3 @@
-body {
-    background-color: #fff;
-}
-
 /*
  * cwTeXFangSong (Chinese Traditional) http://www.google.com/fonts/earlyaccess
  */
@@ -14,6 +10,10 @@ body {
        url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff) format('woff'),
        url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.ttf) format('truetype');
+}
+
+body {
+    background-color: #fff;
 }
 
 .no-display {
