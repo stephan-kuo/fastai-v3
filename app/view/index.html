@@ -7,8 +7,8 @@
 <body>
 <div>
   <div class='center'>
-    <div class='title'>藥園植物影像分類 🌿</div>
-    <p>
+    <div class='title' style="font-size:35px">藥園植物影像分類 🌿</div>
+    <p style="font-family: 'cwTeXFangSong';font-size:25px">
       請使用以下植物的圖片：
       <a href="http://kplant.biodiv.tw/%E5%9C%9F%E5%8D%8A%E5%A4%8F/%E5%9C%9F%E5%8D%8A%E5%A4%8F.htm">土半夏</a>、
       <a href="http://kplant.biodiv.tw/%E5%A7%91%E5%A9%86%E8%8A%8B/%E5%A7%91%E5%A9%86%E8%8A%8B.htm">姑婆芋</a>、
@@ -27,18 +27,20 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>選擇圖片</button>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>
+        選擇圖片
+      </button>
       <div class='upload-label'>
-        <label id='upload-label'>尚未選取檔案</label>
+        <label id='upload-label'  style="font-size:25px">尚未選取檔案</label>
       </div>
       <div>
         <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
       </div>
-      <div class='analyze'>
+      <div class='analyze' style="font-size:25px">
         <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>分析</button>
       </div>
       <div class='result-label'>
-        <label id='result-label'></label>
+        <label id='result-label'  style="font-size:25px"></label>
       </div>
     </div>
   </div>
