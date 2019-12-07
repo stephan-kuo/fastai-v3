@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1AvCu9Bo7QI6aRu7O7ZfjJqwTUi_VgZrs'
-export_file_name = 'export2.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1BpWZj6It7V-ppI49waptkcDj8FSRozmF'
+export_file_name = 'export3.pkl'
 
 classes = ['土半夏', '姑婆芋', '毛忍冬', '血桐', '賣子木', '雞蛋花', '魚腥草']
 path = Path(__file__).parent
