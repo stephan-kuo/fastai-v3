@@ -7,10 +7,16 @@
 <body>
 <div>
   <div class='center'>
-    <div class='title'>Classify Bear Images 🐻</div>
-    <p>
-      Use images of <strong>teddy</strong> bears, <strong>black</strong> bears, <strong>grizzly</strong> bears, or
-      all three!
+    <div class='title' style="font-size:5rem">藥園植物影像分類 🌿</div>
+    <p style="font-family: 'cwTeXFangSong';font-size:2.5rem">
+      請使用以下植物的圖片：
+      <a href="http://kplant.biodiv.tw/%E5%9C%9F%E5%8D%8A%E5%A4%8F/%E5%9C%9F%E5%8D%8A%E5%A4%8F.htm">土半夏</a>、
+      <a href="http://kplant.biodiv.tw/%E5%A7%91%E5%A9%86%E8%8A%8B/%E5%A7%91%E5%A9%86%E8%8A%8B.htm">姑婆芋</a>、
+      <a href="http://kplant.biodiv.tw/%E5%88%B0%E6%89%8B%E9%A6%99/%E5%88%B0%E6%89%8B%E9%A6%99.htm">毛忍冬</a>、
+      <a href="http://kplant.biodiv.tw/%E8%A1%80%E6%A1%90/%E8%A1%80%E6%A1%90910716/%E8%A1%80%E6%A1%90910716.htm">血桐</a>、
+      <a href="http://kplant.biodiv.tw/%E4%BB%99%E4%B8%B9%E8%8A%B1/%E4%BB%99%E4%B8%B9%E8%8A%B1910716.htm">賣子木</a>、
+      <a href="http://kplant.biodiv.tw/%E7%B7%AC%E6%A2%94%E8%8A%B1/%E7%B7%AC%E6%A2%94%E8%8A%B1.htm">雞蛋花</a>或
+      <a href="http://kplant.biodiv.tw/%E9%AD%9A%E8%85%A5%E8%8D%89/%E9%AD%9A%E8%85%A5%E8%8D%89.htm">魚腥草</a>。
     </p>
     <div class='content'>
       <div class='no-display'>
@@ -21,18 +27,22 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <button class='choose-file-button' type='button' onclick='showPicker()' style="font-size:2rem">
+        選擇圖片
+      </button>
       <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
+        <label id='upload-label'  style="font-family:'cwTeXFangSong', 'Courier New'; font-size:2rem">尚未選取檔案</label>
       </div>
       <div>
         <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
       </div>
-      <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+      <div class='analyze' style="font-size:25px">
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()' style="font-family:'Courier New';font-size:2rem">
+          Analyze
+        </button>
       </div>
       <div class='result-label'>
-        <label id='result-label'></label>
+        <label id='result-label' style="font-family:'cwTeXFangSong','Courier New'; font-size:2.5rem"></label>
       </div>
     </div>
   </div>
